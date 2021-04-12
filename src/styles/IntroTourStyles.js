@@ -24,7 +24,8 @@ export const styles = StyleSheet.create({
     height: 200,
     borderRadius: 200 / 2,
     overflow: 'hidden',
-    borderWidth: 3,
+    borderWidth: 2,
+    marginTop: wp('10'),
   },
   text: {
     color: 'rgba(255, 255, 255, 0.8)',

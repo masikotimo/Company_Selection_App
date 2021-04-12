@@ -4,21 +4,17 @@ const slides = [
     title: 'Introduction',
     text: 'Hello I am Timothy Masiko.\nThank you for giving me a chance ',
     image: require('../assets/me.jpeg'),
-    backgroundColor: '#59b2ab',
   },
   {
     key: 2,
     title: 'Format Of Input',
-    text: 'Other cool stuff',
-
-    backgroundColor: '#febe29',
+    text:
+      'There consists of an Input file in the source code that takes in input inform of a string.\n\nEach line of the string must be in such a format below \n\n======\n"Company A" requires an apartment or house, and property insurance\n======\n\n  The company name must be in quotation marks\n\nA company should not be repeated ',
   },
   {
     key: 3,
-    title: 'Rocket guy',
-    text: "I'm already out of descriptions\n\nLorem ipsum bla bla bla",
-
-    backgroundColor: '#22bcb5',
+    title: 'Alright enough with the Intro ',
+    text: 'Lets dive right in',
   },
 ];
 
