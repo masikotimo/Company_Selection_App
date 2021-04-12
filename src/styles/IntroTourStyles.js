@@ -12,11 +12,6 @@ export const styles = StyleSheet.create({
   slideWrapper: {
     backgroundColor: '#6a00a8',
   },
-  circles: {
-    width: wp('20'),
-    height: wp('30'),
-    marginLeft: wp('80'),
-  },
   logoText: {
     color: '#fff',
     fontWeight: '100',
@@ -24,19 +19,12 @@ export const styles = StyleSheet.create({
     marginBottom: wp('2'),
     fontFamily: 'heading',
   },
-  ReferlogoText: {
-    marginTop: wp('10'),
-  },
-  zigzag: {
-    width: wp('38'),
-    height: wp('10'),
-    marginBottom: wp('5'),
-    marginLeft: wp('0'),
-  },
   image: {
-    width: 320,
-    height: 320,
-    marginVertical: 32,
+    width: 200,
+    height: 200,
+    borderRadius: 200 / 2,
+    overflow: 'hidden',
+    borderWidth: 3,
   },
   text: {
     color: 'rgba(255, 255, 255, 0.8)',
@@ -45,10 +33,10 @@ export const styles = StyleSheet.create({
     marginBottom: wp('5'),
   },
   title: {
-    fontFamily: 'bodytext',
     fontSize: wp('7'),
     fontWeight: 'bold',
     marginBottom: wp('2'),
+    marginTop: wp('15'),
     color: '#fdd700',
     textAlign: 'center',
   },
