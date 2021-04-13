@@ -9,5 +9,7 @@ The source code consists of an input file called 'InputFile' that consists of th
 # How Task was archieved
 
 With The help of Regular Expressions the input string was matched with instances of both Driver's license and Bike occurences inorder to generate both the valid companies and those that are not valid
+<br/>
+Below is how the component shall look like
 
-![image](./src/asessts/companies.jpeg)
+![example of the screen](./src/assets/companies.jpeg)
