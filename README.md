@@ -13,3 +13,7 @@ With The help of Regular Expressions the input string was matched with instances
 Below is how the component shall look like
 
 ![example of the screen](./src/assets/companies.jpeg)
+
+# Tests
+
+Snapshot are written with the Jest Framework

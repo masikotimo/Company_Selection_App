@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<AppIntroSlider
+  activeDotStyle={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, .9)",
+    }
+  }
+  bottomButton={false}
+  data={
+    Array [
+      Object {
+        "image": 1,
+        "key": 1,
+        "text": "Hello I am Timothy Masiko.
+Thank you for giving me a chance ",
+        "title": "Introduction",
+      },
+      Object {
+        "key": 2,
+        "text": "There consists of an Input file in the source code that takes in input inform of a string.
+
+Each line of the string must be in such a format below 
+
+======
+\\"Company A\\" requires an apartment or house, and property insurance
+======
+
+  The company name must be in quotation marks
+
+A company should not be repeated ",
+        "title": "Format Of Input",
+      },
+      Object {
+        "key": 3,
+        "text": "Lets dive right in",
+        "title": "Alright enough with the Intro ",
+      },
+    ]
+  }
+  doneLabel="Done"
+  dotClickEnabled={true}
+  dotStyle={
+    Object {
+      "backgroundColor": "rgba(0, 0, 0, .2)",
+    }
+  }
+  nextLabel="Next"
+  onDone={[Function]}
+  prevLabel="Back"
+  renderItem={[Function]}
+  showDoneButton={true}
+  showNextButton={true}
+  showPrevButton={false}
+  showSkipButton={false}
+  skipLabel="Skip"
+/>
+`;

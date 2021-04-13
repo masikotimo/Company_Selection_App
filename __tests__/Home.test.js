@@ -2,14 +2,14 @@ import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import React from 'react';
 import configureMockStore from 'redux-mock-store';
-import SignupScreen1 from '../src/screens/SignupScreen1';
+import Home from '../src/screens/Home';
 
 const mockedStore = configureMockStore()({});
 const testProps = createTestProps({});
 
-describe('SignupScreen1', () => {
+describe('Home', () => {
   it('renders correctly', () => {
-    const wrapper = shallow(<SignupScreen1 {...testProps} store={mockedStore} />);
+    const wrapper = shallow(<Home {...testProps} store={mockedStore} />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 });
