@@ -64,7 +64,7 @@ export default class Home extends React.Component {
       return (
         <ScrollView style={styles.slideWrapper}>
           <View>
-            <Card>
+            <Card containerStyle={{ borderRadius: 20, marginTop: 70 }}>
               <Card.Title>COMPANIES TO APPLY FOR</Card.Title>
               <Card.Divider />
               {validCompanies.map((u, i) => {
